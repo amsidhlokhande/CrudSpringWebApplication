@@ -5,6 +5,10 @@ import java.util.List;
 import com.joseph.dao.StudentDao;
 import com.joseph.model.Student;
 import com.joseph.service.StudentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 @Service
 public class StudentServiceImpl implements StudentService {
 
